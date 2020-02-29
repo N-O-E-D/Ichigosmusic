@@ -20,8 +20,8 @@
     }
 
 
-    var conferma=window.confirm("Attempting to download PDFs.\nDownload " + count + " file(s)?");
-    if(conferma==true){
+    var confirm=window.confirm("Attempting to download PDFs.\nDownload " + count + " file(s)?");
+    if(confirm==true){
         for(let item of links) {
             if(item.href.toString().includes("type=pdf")){
                     console.log(item.href);
