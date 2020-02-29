@@ -2,8 +2,8 @@
 // @name         Ichigo-script
 // @namespace    http://tampermonkey.net/
 // @version      0.1
-// @description  script to download all PDFs of the site. run the script on https://ichigos.com/list
-// @author       You
+// @description  script to download all PDFs of the site. run the script on links in https://ichigos.com/list
+// @author       NOED
 // @match        https://ichigos.com/sheets/*
 // @grant        none
 // ==/UserScript==
