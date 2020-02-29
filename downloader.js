@@ -8,7 +8,7 @@
 // @grant        none
 // ==/UserScript==
 
-(function() {
+window.onload=function(){
     'use strict';
 
     var count=0;
@@ -34,4 +34,4 @@
         }
 
  
-})();
+}();
