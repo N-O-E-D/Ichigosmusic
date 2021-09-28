@@ -5,6 +5,7 @@
 // @description  script to download all PDFs of the site. run the script on links in https://ichigos.com/list
 // @author       NOED
 // @match        https://ichigos.com/sheets/*
+// @exclude      https://ichigos.com/sheets/
 // @require      https://raw.githubusercontent.com/Stuk/jszip/master/dist/jszip.js
 // @require      https://raw.githubusercontent.com/Stuk/jszip-utils/master/dist/jszip-utils.js
 // @require      https://raw.githubusercontent.com/eligrey/FileSaver.js/master/dist/FileSaver.js
